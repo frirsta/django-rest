@@ -110,3 +110,10 @@ pip install django-filter
 pip install dj-rest-auth
 pip install 'dj-rest-auth[with_social]'
 pip install djangorestframework-simplejwt
+ pip3 install dj_database_url==0.5.0 psycopg2
+
+python3 manage.py makemigrations --dry-run
+SELECT * FROM "public"."auth_user" LIMIT 100
+
+pip3 install gunicorn django-cors-headers
+ pip freeze --local > requirements.txt
