@@ -117,3 +117,5 @@ SELECT * FROM "public"."auth_user" LIMIT 100
 
 pip3 install gunicorn django-cors-headers
  pip freeze --local > requirements.txt
+ pip3 install gunicorn django-cors-headers
+ pip freeze --local > requirements.txt
